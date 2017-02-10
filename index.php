@@ -3,15 +3,15 @@
 				<head>
 				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 				<meta name="googlebot" content="noindex">
-				<script type="text/javascript" src="http://vnz-leech.co/go/lib/jquery.min.js"</script>
-				<script type="text/javascript" src="http://vnz-leech.co/go/lib/jquery.tipsy.js"</script>
+				<script type="text/javascript" src="https://raw.githubusercontent.com/huykent/vnz/master/lib/jquery.min.js"</script>
+				<script type="text/javascript" src="https://raw.githubusercontent.com/huykent/vnz/master/lib/jquery.tipsy.js"</script>
 				
-				<link rel="stylesheet" href="http://vnz-leech.co/go/lib/bootstrap.min.css">
-				<link rel="stylesheet" href="http://vnz-leech.co/go/lib/bootstrap-glyphicons.css">
+				<link rel="stylesheet" href="https://raw.githubusercontent.com/huykent/vnz/master/lib/bootstrap.min.css">
+				<link rel="stylesheet" href="https://raw.githubusercontent.com/huykent/vnz/master/lib/bootstrap-glyphicons.css">
 				<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 				<link rel="icon" href="/favicon.ico" type="image/x-icon">
-				<link href="http://vnz-leech.co/go/lib/css-family=Lato.css" rel='stylesheet' type='text/css'>
-				<link href="http://vnz-leech.co/go/lib/style.css" rel='stylesheet' type='text/css'>
+				<link href="https://raw.githubusercontent.com/huykent/vnz/master/lib/css-family=Lato.css" rel='stylesheet' type='text/css'>
+				<link href="https://raw.githubusercontent.com/huykent/vnz/master/lib/style.css" rel='stylesheet' type='text/css'>
 				<title>Download Multilink - Folder</title>
 				<script>function makelist(data){
 	if ($('#showlistlink').css('display') == "none"){
@@ -54,17 +54,17 @@
 	<div class="main">
 		<div class="header">
 			
-<span class="top_head_text"><img src="http://vnz-leech.co/go/lib/logo1.png" alt='VNZ-LEECH.COM'/></span>
+<span class="top_head_text"><img src="https://raw.githubusercontent.com/huykent/vnz/master/lib/logo1.png" alt='VNZ-LEECH.COM'/></span>
 		</div>
 
 		<div class="jumbotron">
 			<div class="jumbotron-left">
 				<p class="file-hero">
-					<div style="text-align: center; line-height:30px;"><font style="font-size: 30px; font-weight: bold; color: rgb(255, 255, 255);"><img src="http://vnz-leech.co/go/lib/logo-complete2.png" alt='download-logo'/> Download Your File</font></div>
+					<div style="text-align: center; line-height:30px;"><font style="font-size: 30px; font-weight: bold; color: rgb(255, 255, 255);"><img src="https://raw.githubusercontent.com/huykent/vnz/master/lib/logo-complete2.png" alt='download-logo'/> Download Your File</font></div>
 				</p>
 				<div class="file">
 					<div class="file-img">
-						<img src="http://vnz-leech.co/go/lib/file.png" alt='file'/>
+						<img src="https://raw.githubusercontent.com/huykent/vnz/master/lib/file.png" alt='file'/>
 					</div>
 					<div id="linksdown" class="file-text">
 						
@@ -114,7 +114,7 @@ if ((isset($_GET['apikey']) && $_GET['apikey'] == $password) && (isset($_GET['fi
 			</div>
 							<div id="showlistlink" align="center"><div id="listlinks" align="center" style="display: none;"></div></div>
 			<div class="jumbotron-right">
-				<img src="http://vnz-leech.co/go/lib/plane.png" alt='plan'/>
+				<img src="https://raw.githubusercontent.com/huykent/vnz/master/lib/plane.png" alt='plan'/>
 				
 			</div>
 			<div class="clearfix"></div>
@@ -125,7 +125,7 @@ if ((isset($_GET['apikey']) && $_GET['apikey'] == $password) && (isset($_GET['fi
 			</p>
 			<div class="step-section">
 				<div class="section-img">
-					<img src="http://vnz-leech.co/go/lib/surveu.png" alt='cick link'/>
+					<img src="https://raw.githubusercontent.com/huykent/vnz/master/lib/surveu.png" alt='cick link'/>
 				</div>
 				<div class="section-text">
 					<p class="section-text-hero">
@@ -139,7 +139,7 @@ if ((isset($_GET['apikey']) && $_GET['apikey'] == $password) && (isset($_GET['fi
 			</div>
 			<div class="step-section">
 				<div class="section-img">
-					<img src="http://vnz-leech.co/go/lib/unlock.png" alt='save'/>
+					<img src="https://raw.githubusercontent.com/huykent/vnz/master/lib/unlock.png" alt='save'/>
 				</div>
 				<div class="section-text">
 					<p class="section-text-hero">
@@ -153,7 +153,7 @@ if ((isset($_GET['apikey']) && $_GET['apikey'] == $password) && (isset($_GET['fi
 			</div>
 			<div class="step-section" style="margin-right:0;">
 				<div class="section-img">
-					<img src="http://vnz-leech.co/go/lib/start.png" alt='start'/>
+					<img src="https://raw.githubusercontent.com/huykent/vnz/master/lib/start.png" alt='start'/>
 				</div>
 				<div class="section-text">
 					<p class="section-text-hero">
