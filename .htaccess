@@ -1,0 +1,7 @@
+IndexIgnore .htaccess
+IndexIgnore *.txt
+
+RewriteEngine on
+<IfModule mod_rewrite.c>
+RewriteRule ^vnz/(.*)$ index.php?apikey=happy&file=download/$1
+</IfModule>
