@@ -3,8 +3,8 @@
 				<head>
 				<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 				<meta name="googlebot" content="noindex">
-				<script type="text/javascript" src="http://hitpro.cloudapp.net/get/lib/jquery.min.js"</script>
-				<script type="text/javascript" src="http://hitpro.cloudapp.net/get/lib/jquery.tipsy.js"</script>
+				<script type="text/javascript" src="http://hitpro.cloudapp.net/get/lib/jquery.min.js"></script>
+				<script type="text/javascript" src="http://hitpro.cloudapp.net/get/lib/jquery.tipsy.js"></script>
 				
 				<link rel="stylesheet" href="http://hitpro.cloudapp.net/get/lib/bootstrap.min.css">
 				<link rel="stylesheet" href="http://hitpro.cloudapp.net/get/lib/bootstrap-glyphicons.css">
