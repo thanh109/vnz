@@ -16,7 +16,10 @@ if (!empty($data)) {
     $tmp  = array_filter($tmp);
     $str  = implode("\n", $tmp);
    // $str  = Googlzip($str);
-    echo $str;
+   if(!empty($str)){
+	   echo $str;
+   }
+    
 }
 else echo "Invalid";
 function Googlzip($longUrl)
