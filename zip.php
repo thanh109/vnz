@@ -7,8 +7,9 @@ if (isset($_GET['link'])) {
 $data = bucksapi($link);
 if (!empty($data)) {
     echo $data;
-} elseif (isset($_GET['shink'])) {
-    $url  = $_GET['shink'];
+} else echo "invalid";
+if (isset($_GET['shink'])) {
+    $url  = $_GET['shink bucks'];
     $link = "http://shink.in/stxt/0/id/178913/auth_token/W0e2xk?s=" . $url;
     $data = file_get_contents($link);
     $str  = preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", $data);
@@ -17,7 +18,7 @@ if (!empty($data)) {
     $str  = implode("\n", $tmp);
     $str  = Googlzip($str);
     echo $str;
-}
+}else echo "invalid shink";
 function Googlzip($longUrl)
 {
     $GoogleApiKey = "AIzaSyCUnvs3IzK9X-L7tnky-eljZ3mlYwElHGU";
