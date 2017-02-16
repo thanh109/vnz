@@ -15,7 +15,7 @@ if (!empty($data)) {
     $tmp  = explode("\n", $str);
     $tmp  = array_filter($tmp);
     $str  = implode("\n", $tmp);
-    $str  = Googlzip($str);
+   // $str  = Googlzip($str);
     echo $str;
 }
 else echo "Invalid";
