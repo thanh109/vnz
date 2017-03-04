@@ -164,10 +164,6 @@ if ((isset($_GET['apikey']) && $_GET['apikey'] == $password) && (isset($_GET['fi
 		</html>
 <?
 }else echo <<<hit
-<!--
-Author: Happy
-Author URL: http://ccmnr.net
--->
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
