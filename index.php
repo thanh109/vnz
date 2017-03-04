@@ -1,5 +1,6 @@
 <?php
 $localdir = 'http://'.$_SERVER['HTTP_HOST'];
+if (isset($_GET['file']) && isset($_GET['apikey'])){
 ?>
 <!DOCTYPE html>
 <html lang="en" style="height:100%;">
@@ -161,3 +162,6 @@ if ((isset($_GET['apikey']) && $_GET['apikey'] == $password) && (isset($_GET['fi
 </div>	
 </body>
 		</html>
+<?
+}else die();
+?>
