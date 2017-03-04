@@ -163,5 +163,53 @@ if ((isset($_GET['apikey']) && $_GET['apikey'] == $password) && (isset($_GET['fi
 </body>
 		</html>
 <?
-}else die();
+}else echo <<<hit
+<!--
+Author: Happy
+Author URL: http://ccmnr.net
+-->
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta http-equiv="refresh" content="5;URL=http://vnz-leech.com">
+		<title>VNZ-LEECH Team | Home :: VNZ-LEECH.COM</title>
+		<meta name="keywords" content="enerator Premium Link Uploaded, Rapidgator, Netload, Filepost, Filefastory, Novafile, Fshare, 4shared.....">
+		<link href="$localdir/hitpro/style.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+	<body>
+
+
+
+		<!--start-wrap--->
+		<div class="wrap">
+			<!---start-header---->
+				<div class="header">
+					<div class="logo">
+						<h1><a href="#">VNZ-LEECH</a></h1>
+					</div>
+				</div>
+				<div class="ad728x90" style="text-align:center">
+				
+		   </div>
+			<!---End-header---->
+			<!--start-content------>
+			<div class="content">
+				<img src="$localdir/hitpro/error-img.png" title="error">
+				<p><span><label>O</label>pps.....</span>You Requested the page that is no longer There.</p>
+				<div class="ad728x90" style="text-align:center">
+				
+		   </div>
+				<a href="http://vnz-leech.com">Back To Home</a>
+				<div class="copy-right">
+					<p>© All rights Reserved | Designed by <a href="http://ccmnr.net/">Happy</a></p>
+				</div>
+   			</div>
+			<!--End-Cotent------>
+		</div>
+		<!--End-wrap--->
+	
+
+
+</body></html>
+hit;
 ?>
