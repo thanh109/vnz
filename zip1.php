@@ -9,17 +9,15 @@ if (!empty($data)) {
     echo $data;
 } elseif (isset($_GET['shink'])) {
     $url  = $_GET['shink'];
-    $link = "http://shink.in/stxt/0/id/178913/auth_token/W0e2xk?s=" . $url;
+    $link = "http://shink.in/stxt/0/id/184388/auth_token/NF1VfA?s=" . $url;
     $data = file_get_contents($link);
     $str  = preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "", $data);
-   // $tmp  = explode("\n", $str);
+  //  $tmp  = explode("\n", $str);
    // $tmp  = array_filter($tmp);
    // $str  = implode("\n", $tmp);
-   // $str  = Googlzip($str);
-  // if(!empty($str)){
-	   echo $str;
-   //}
-    
+    //$str  = base64_encode($str);
+   // echo "http://hitpro.cloudapp.net/go.php?go=".$str;
+   echo $str;
 }
 else echo "Invalid";
 function Googlzip($longUrl)
