@@ -1,0 +1,21 @@
+IndexIgnore .htaccess
+IndexIgnore *.txt
+
+RewriteEngine on
+<IfModule mod_rewrite.c>
+RewriteRule ^vnz/(.*)$ index.php?apikey=happy&file=download/$1
+</IfModule>
+
+
+
+
+# nginx configuration
+#location /vnz {
+#rewrite ^/vnz/(.*)$ /index.php?apikey=happy&file=download/$1;
+#}
+#location /redirect {
+#rewrite ^/redirect/(.*)$ /go.php?link=$1;
+#}
+#location /getlink {
+#rewrite ^/getlink/(.*)$ /getlink.php?file=$1;
+#}
